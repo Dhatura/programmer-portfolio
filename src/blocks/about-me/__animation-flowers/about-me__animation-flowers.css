@@ -1,0 +1,107 @@
+.about-me__animation-flowers {
+  position: relative;
+  width: 768px;
+  height: 226px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Анимация всплытия */
+@keyframes fly1 {
+  0% {
+    transform: translateY(0);
+    opacity: 0;
+}
+  50% {
+    opacity: 1;
+  }
+  100% {
+      transform: translateY(-150px) translateX(-50px);
+      opacity: 1;
+      left: calc(50% - 100px);
+  }
+}
+
+@keyframes fly2 {
+  0% {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-150px) translateX(70px);
+      opacity: 1;
+      left: calc(50% - 112px);
+  }
+}
+
+@keyframes fly3 {
+  0% {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-150px) translateX(-70px);
+      opacity: 1;
+      left: calc(50% - 25px);
+  }
+}
+
+@keyframes fly4 {
+  0% {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-150px) translateX(30px);
+      opacity: 1;
+      left: calc(50% + 36px);
+  }
+}
+
+@keyframes fly5 {
+  0% {
+      transform: translateY(0);
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  100% {
+      transform: translateY(-150px) translateX(0px);
+      opacity: 1;
+      left: calc(50% + 10px);
+  }
+}
+
+
+/* .about-me__animation-flowers:hover #item1 {
+  animation: fly1 1s forwards 0s ease-in-out;
+}
+
+.about-me__animation-flowers:hover #item2 {
+  animation: fly2 1s forwards 0.25s ease-in-out;
+}
+
+.about-me__animation-flowers:hover #item3 {
+  animation: fly3 1s forwards 0.5s ease-in-out;
+}
+
+.about-me__animation-flowers:hover #item4 {
+  animation: fly4 1s forwards 0.75s ease-in-out;
+}
+
+.about-me__animation-flowers:hover #item5 {
+  animation: fly5 1s forwards 1s ease-in-out;
+} */

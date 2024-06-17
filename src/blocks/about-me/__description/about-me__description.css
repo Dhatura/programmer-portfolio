@@ -1,0 +1,28 @@
+.about-me__description {
+  box-sizing: border-box;
+  font-size: 18px;
+  background-color: var(--background-for-text);
+  border-radius: 1%;
+  height: 100%;
+  padding: 40px;
+}
+
+.about-me__description:hover #item1 {
+  animation: fly1 1s forwards 0s ease-in-out;
+}
+
+.about-me__description:hover #item2 {
+  animation: fly2 1s forwards 0.25s ease-in-out;
+}
+
+.about-me__description:hover #item3 {
+  animation: fly3 1s forwards 0.5s ease-in-out;
+}
+
+.about-me__description:hover #item4 {
+  animation: fly4 1s forwards 0.75s ease-in-out;
+}
+
+.about-me__description:hover #item5 {
+  animation: fly5 1s forwards 1s ease-in-out;
+}

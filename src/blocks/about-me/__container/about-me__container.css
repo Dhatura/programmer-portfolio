@@ -1,0 +1,8 @@
+.about-me__container {
+  display: grid;
+  grid-template-columns: 296px 1fr;
+  grid-template-rows: 406px;
+  column-gap: 40px;
+  justify-content: center;
+  margin-top: 40px;
+}

@@ -1,0 +1,28 @@
+@import url(../vendor/normalize.css);
+
+@import url(../vendor/fonts/fonts.css);
+
+@import url(../blocks/root/root.css);
+@import url(../blocks/root/__container/root__container.css);
+@import url(../blocks/root/__colors/root__colors.css);
+@import url(../blocks/root/_effect-sadow/root_effect-shadow.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__menu-item/header__menu-item.css);
+
+@import url(../blocks/about-me/about-me.css);
+@import url(../blocks/about-me/__title/about-me__title.css);
+@import url(../blocks/about-me/__container/about-me__container.css);
+@import url(../blocks/about-me/__photo/__photo.css);
+@import url(../blocks/about-me/__description/about-me__description.css);
+@import url(../blocks/about-me/__description/_no-margin/about-me__description_no-margin.css);
+@import url(../blocks/about-me/__animation-flowers/about-me__animation-flowers.css);
+@import url(../blocks/about-me/__animation-flowers-item/about-me__animation-flowers-item.css);
+
+@import url(../blocks/my-relocations/my-relocations.css);
+@import url(../blocks/my-relocations/__title/my-relocations__title.css);
+@import url(../blocks/my-relocations/__map/my-relocations__map.css);
+@import url(../blocks/map-popup-castom/map-popup-castom.css);
+

@@ -1,0 +1,30 @@
+.header__menu-item {
+  margin: 0 20px 0 0;
+  border: none;
+  outline: none;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 12px 16px;
+  border-radius: 10px;
+  background-color: var(--buttons-color);
+}
+
+.header__menu-item:hover {
+  transform: scale(0.94);
+}
+
+.header__menu-item:active {
+  box-sizing: 80%;
+  -webkit-user-select: none; /* Chrome/Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE/Edge */
+  user-select: none;
+  background-color: var(--active-buttons-color);
+}
+
+.header__menu-item:last-child {
+  margin: 0;
+}
